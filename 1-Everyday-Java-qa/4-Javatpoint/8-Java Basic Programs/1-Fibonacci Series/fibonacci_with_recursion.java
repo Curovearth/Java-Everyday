@@ -1,6 +1,6 @@
 public class fibonacci_with_recursion {
-    static int a=1,b=1,c=0;                     // declaring international variables
-    static void printFibonacci(int count){      // declaring the function
+    static int a=1,b=1,c=0;                     // declaring variables for the class
+    static void printFibonacci(int count){      // declaring the class
         if(count>0){
             c=a+b;
             a=b;
