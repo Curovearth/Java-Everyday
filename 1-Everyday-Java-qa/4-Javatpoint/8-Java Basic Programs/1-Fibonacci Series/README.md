@@ -4,7 +4,7 @@
 <br>
 <h2>Fibonacci Sequence Formula</h2>
 <p>The Fibonacci sequence of numbers "Fn" is defined using the recursive relation with the seed values F0=0 and F1=1</p>
-<p><b>Fn=Fn-1 + Fn-2</p>
+<p><b>Fn=Fn-1 + Fn-2</b></p>
 <p>Here it is defined using two different parts, such as kick off and recursive relation</p>
 <h2>Fibonacci Sequence List</h2>
 <p>The list of the first 20 terms in the Fibonacci Sequence is</p>
