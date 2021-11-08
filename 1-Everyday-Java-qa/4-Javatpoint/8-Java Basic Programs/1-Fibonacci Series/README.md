@@ -1,7 +1,6 @@
 <h1>FIBONACCI SERIES</h1>
 <p>A series of numbers in which each number is the sum of the two preceding numbers.</p>
 <p>The simplest is the series 1,1,2,3,5,8...</p>
-<br>
 <h2>Fibonacci Sequence Formula</h2>
 <p>The Fibonacci sequence of numbers "Fn" is defined using the recursive relation with the seed values F0=0 and F1=1</p>
 <p><b>Fn=Fn-1 + Fn-2</b></p>
