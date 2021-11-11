@@ -13,6 +13,7 @@
 - [X] CODE-VIT(still adding)
 - [ ] Notes
 - [X] <a href="https://github.com/Swarzinium-369/Java-Everyday/tree/main/1-Everyday-Java-qa/4-Javatpoint/8-Java%20Basic%20Programs">Java Basic Program</a> (still adding)
+- [X] Java Projects folder added
 
 <h3>What all can you expect from this repository from my end ?:raised_eyebrow:</h3>
 <ul>
