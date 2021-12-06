@@ -7,3 +7,11 @@
     <li><b>Inheritance: </b>when one object acquires all the properties and behaviours of a parent object. Provides code reusability. </li>
     <li><b>Polymorphism: </b>when one task is performed in different ways. In java we use method overloading and method over riding to achieve polymorphism.  </li>
 </ul>
+
+<h2>Different ways to create an object in Java</h2>
+<ul>
+    <li>By new keyword</li>
+    <li>By newInstance() method</li>
+    <li>By clone() method</li>
+    <li>By factory method</li>
+</ul>
