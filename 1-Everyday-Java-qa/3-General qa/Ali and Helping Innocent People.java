@@ -17,19 +17,41 @@ class validity
     public static void main(String args[]) 
     {
         Scanner scan = new Scanner(System.in);
-        String str = scan.next();
-        System.out.println(str);  
-        char s = str.charAt(2);
-        char s2 =str.charAt(6);
-        String s1 = Character.toString(s);
-        System.out.println(s1);
-        if (str.length()==9 && Character.isUpperCase(s) && s2=='-' && str.contains("0")!=true)
+        String str = scan.next(); // Taking input as a string 
+        char[] ch = str.toCharArray(); //Converting the string to a character array
+        String[] arr = {"A","E","I","O","U","Y"}; //Creating a string array to store the given invalid string elements
+        int flag = 0; //Initializing the flag conditon to work as a valid/invalid condition
+        
+        //In the if condition that follows we will check if the string length is 9, 
+        //check if the character is in upper case, check if the character at index position at 6 contains '-', 
+        //check if the string doesn't contain "0" and check if the sum of consecutive number yields an even number. 
+        //If the condition satidfies we move inside the condition. 
+        if (str.length()==9 && Character.isUpperCase(ch[2]) && ch[6]=='-' && str.contains("0")!=true && (ch[0]+ch[1])%2==0 && (ch[3]+ch[4])%2==0 && (ch[4]+ch[5])%2==0 && (ch[7]+ch[8])%2==0)
+        {            
+            for(int i=0;i<6;i++) //Intializing the for loop for checking the string array
+            {
+                if (str.contains(arr[i])) //Checking if the string contains values from arr
+                {
+                    flag = 1; //When the if conditon is met, the flag value changes to 1
+                    break; //Breaks the loop 
+                }
+                else
+                {
+                    flag = 0; //Continues with the same flag value and the loop continues
+                }
+            }
+        }
+        else 
         {
-            System.out.println("valid");
+            System.out.println("invalid");
+        }
+        if (flag==1)
+        {
+            System.out.println("invalid");
         }
         else
         {
-            System.out.println("invalid");
+            System.out.println("valid");
         }
     }
 }
