@@ -9,3 +9,8 @@
 | 4 | <a href="https://github.com/Swarzinium-369/Java-Everyday/blob/main/1-Everyday-Java-qa/1-Hackerrank%20qa/1-Java(Basic)/4-Java%20output%20formatting.java">Java Output Formatting</a> |
 | 5 | <a href="https://github.com/Swarzinium-369/Java-Everyday/blob/main/1-Everyday-Java-qa/1-Hackerrank%20qa/1-Java(Basic)/5-Java%20Loops%201.java">Java Loops 1</a> |
 | 6 | <a href="https://github.com/Swarzinium-369/Java-Everyday/blob/main/1-Everyday-Java-qa/1-Hackerrank%20qa/1-Java(Basic)/Java%20Loops%20II.java">Java Loops 2</a> |
+| 7 |  |
+| 8 |  |
+| 9 |  |
+| 10 |  |
+| 11 |  |
