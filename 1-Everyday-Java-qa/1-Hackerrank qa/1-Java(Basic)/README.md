@@ -11,6 +11,6 @@
 | 6 | <a href="https://github.com/Swarzinium-369/Java-Everyday/blob/main/1-Everyday-Java-qa/1-Hackerrank%20qa/1-Java(Basic)/6-Java%20Loops%20II.java">Java Loops 2</a> |
 | 7 | <a href="https://github.com/Swarzinium-369/Java-Everyday/blob/main/1-Everyday-Java-qa/1-Hackerrank%20qa/1-Java(Basic)/7-Java%20Datatypes.java">Java Datatypes 2</a> |
 | 8 | <a href="https://github.com/Swarzinium-369/Java-Everyday/blob/main/1-Everyday-Java-qa/1-Hackerrank%20qa/1-Java(Basic)/8-Java%20End-of-file.java">Java End-of-file</a> |
-| 9 |  |
+| 9 | <a href="https://github.com/Swarzinium-369/Java-Everyday/blob/main/1-Everyday-Java-qa/1-Hackerrank%20qa/1-Java(Basic)/9-Java%20Static%20Initializer%20Block.java">Java Static Initializer Block</a> |
 | 10 |  |
 | 11 |  |
