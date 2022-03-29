@@ -12,6 +12,14 @@
         - ~~ArrayList<int> list = new ArrayList<int>();~~
         - ``` ArrayList<Integer> list = new ArrayList<Integer>();``` works well
     - ```ArrayList<String> list = new ArrayList<String>();```
+    | Method | Description |
+    | --- | --- |
+    | ```void add(int index, E element)``` | inserting specified element at specific position|    
+    | ```boolean add(E e)``` | append the specified element at the end of the list |
+    | ```void clear()``` | remove all the elements from the this list |
+    | ```boolean contains(Object o)``` | returns _True_ if the list contains the specified element |
+    | ```E remove(int index)``` | used to remove the element present at the speicified position in the list |
+    | ```int size()``` | returns the number of elements present in the list |
 
 - **LinkedList**
     - can store duplicate elements 
