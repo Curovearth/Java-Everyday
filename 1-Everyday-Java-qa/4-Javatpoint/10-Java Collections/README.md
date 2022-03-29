@@ -2,6 +2,17 @@
 
 ### Collections 
 
+- **Taking input a list using Scanner**
+    - ```Scanner scan = new Scanner(System.in);
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        System.out.print("Enter integers please ");
+        System.out.println("(EOF or non-integer to terminate): ");
+    
+        while(scan.hasNextInt()){
+             list.add(scan.nextInt());
+        }
+        ```
+
 - **ArrayList**
     - uses a dynamic array to store the duplicate elements of different data types
     - maintains the insertion order
@@ -21,6 +32,7 @@
     | ```boolean contains(Object o)``` | returns _True_ if the list contains the specified element |
     | ```E remove(int index)``` | used to remove the element present at the speicified position in the list |
     | ```int size()``` | returns the number of elements present in the list |
+    | ```.retainAll()``` | removing all the arrsy list's elements that are not contained in the specified collection |
 
     - ArrayList<String> : here <String> type forces to have only 'string' type of object in it.
     - _Get and Set_ 
@@ -29,16 +41,19 @@
     - _Sorting list_
         - ```Collections.sort(list_name)```
 
--**Iterate the elements of the collection**
-    - Iterator interface: ```Iterator itr = list.iterator();```
-    - for-each loop: ```for(String str: list){}```
-    - ListIterator interface: ```list.ListIterator(list.size())```
-    - normal for loop: ```for(inti=0;i < list.size();i++){}```
+- **Iterate the elements of the collection**
+    
+    - ```Iterator itr = list.iterator();```: Iterator interface
+    - ```for(String str: list){}```: for-each loop
+    - ```list.ListIterator(list.size())```: ListIterator interface
+    - ```for(inti=0;i < list.size();i++){}```: normal for loop
     - forEachRemaining(): 
     ```
     Iterator itr = list.iterator()
     itr.forEachRemaining(a->{})
     ```
+
+---
 
 - **LinkedList**
     - can store duplicate elements 
