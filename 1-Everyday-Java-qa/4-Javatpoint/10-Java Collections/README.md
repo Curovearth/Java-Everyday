@@ -24,8 +24,8 @@
 
     - ArrayList<String> : here <String> type forces to have only 'string' type of object in it.
     - _Get and Set_ 
-        - ```.get(index_val)```: returns the element at the specified index
-        - ```.set(index_val,list_name)```: changes the element
+        - ```list.get(index_val)```: returns the element at the specified index
+        - ```list.set(index_val,new_name)```: changes the element
     - _Sorting list_
         - ```Collections.sort(list_name)```
 
