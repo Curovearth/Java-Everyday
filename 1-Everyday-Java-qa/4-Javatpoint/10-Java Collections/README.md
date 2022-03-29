@@ -9,9 +9,10 @@
     - elements can be randomly accessed 
     - manipulation is a bit slower than LinkedList because a lot of shifting needs to occur if any element is removed.
     - We can't create an array list of the primitive types such as int, float, char etc..
-        - ~~ArrayList<int> list = new ArrayList<int>();~~
+        - ~ArrayList< int > list = new ArrayList< int >();~
         - ``` ArrayList<Integer> list = new ArrayList<Integer>();``` works well
     - ```ArrayList<String> list = new ArrayList<String>();```
+    
     | Method | Description |
     | --- | --- |
     | ```void add(int index, E element)``` | inserting specified element at specific position|    
@@ -20,6 +21,24 @@
     | ```boolean contains(Object o)``` | returns _True_ if the list contains the specified element |
     | ```E remove(int index)``` | used to remove the element present at the speicified position in the list |
     | ```int size()``` | returns the number of elements present in the list |
+
+    - ArrayList<String> : here <String> type forces to have only 'string' type of object in it.
+    - _Get and Set_ 
+        - ```.get(index_val)```: returns the element at the specified index
+        - ```.set(index_val,list_name)```: changes the element
+    - _Sorting list_
+        - ```Collections.sort(list_name)```
+
+-**Iterate the elements of the collection**
+    - Iterator interface: ```Iterator itr = list.iterator();```
+    - for-each loop: ```for(String str: list){}```
+    - ListIterator interface: ```list.ListIterator(list.size())```
+    - normal for loop: ```for(inti=0;i < list.size();i++){}```
+    - forEachRemaining(): 
+    ```
+    Iterator itr = list.iterator()
+    itr.forEachRemaining(a->{})
+    ```
 
 - **LinkedList**
     - can store duplicate elements 
